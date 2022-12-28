@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <p style="font-size: 40px; color: #006464">
+      <em> <strong>Sankey Chart by Black Panther </strong> </em>
+    </p>
+    <SankeyChart />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SankeyChart from "./components/SankeyChart.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    SankeyChart,
+  },
+};
 </script>
 
 <style>
